@@ -1,0 +1,644 @@
+{
+  "businesses": [
+    {
+      "name": "VFX para producciones cinematográficas y de animación",
+      "sale": "Estándar",
+      "description": "Producción de efectos visuales digitales para largometrajes, cortometrajes, series y proyectos de animación. Incluye CGI, composición, simulaciones, integración de elementos digitales, look development, iluminación, render y supervisión de VFX."
+    },
+    {
+      "name": "VFX para producciones comerciales",
+      "sale": "Estándar",
+      "description": "Producción de efectos visuales, animación CGI y contenido digital para campañas publicitarias, marcas, videoclips y piezas promocionales. Incluye animación de productos, composición digital, simulaciones, motion graphics, visualización 3D y adaptación de piezas a diferentes formatos y plataformas."
+    },
+    {
+      "name": "Coworking en VFX",
+      "sale": "Recurrencia",
+      "description": "Cinco plazas abiertas a artistas, estudiantes y freelancers que pagan solo por lo que usan"
+    },
+    {
+      "name": "Residencias creativas",
+      "sale": "Recurrencia",
+      "description": null
+    }
+  ],
+  "direct": [
+    {
+      "name": "Render farm externa",
+      "business": 0,
+      "price": 950,
+      "pack": 1.0,
+      "purchase": "Segundos",
+      "quantity": 200.0,
+      "usage": "Horas GPU",
+      "stock": "No",
+      "value": null,
+      "note": "Confirma la equivalencia entre la unidad de compra y la de consumo.",
+      "source": "A8:H8"
+    },
+    {
+      "name": "Almacenamiento y respaldos por proyecto",
+      "business": 0,
+      "price": 130.0,
+      "pack": 1.0,
+      "purchase": "TB/mes",
+      "quantity": 5.0,
+      "usage": "TB/mes",
+      "stock": "No",
+      "value": 650.0,
+      "note": null,
+      "source": "A9:H9"
+    },
+    {
+      "name": "Servicios externos especializados",
+      "business": 0,
+      "price": 20000.0,
+      "pack": 1.0,
+      "purchase": "Servicio",
+      "quantity": 1.0,
+      "usage": "Servicios",
+      "stock": "No",
+      "value": 20000.0,
+      "note": null,
+      "source": "A10:H10"
+    },
+    {
+      "name": "Render farm externa",
+      "business": 1,
+      "price": 50.0,
+      "pack": 1.0,
+      "purchase": "Horas GPU",
+      "quantity": 100.0,
+      "usage": "Horas GPU",
+      "stock": "No",
+      "value": 5000.0,
+      "note": null,
+      "source": "A24:H24"
+    },
+    {
+      "name": "Assets, modelos 3D y recursos de terceros",
+      "business": 1,
+      "price": 1000.0,
+      "pack": 1.0,
+      "purchase": "Asset",
+      "quantity": 5.0,
+      "usage": "Assets",
+      "stock": "No",
+      "value": 5000.0,
+      "note": null,
+      "source": "A25:H25"
+    },
+    {
+      "name": "Servicios externos especializados",
+      "business": 1,
+      "price": null,
+      "pack": null,
+      "purchase": null,
+      "quantity": null,
+      "usage": null,
+      "stock": "No",
+      "value": null,
+      "note": "Faltan datos de compra o consumo.",
+      "source": "A26:H26"
+    },
+    {
+      "name": "Almacenamiento y respaldos por proyecto",
+      "business": 1,
+      "price": 130.0,
+      "pack": 1.0,
+      "purchase": "TB/mes",
+      "quantity": 2.0,
+      "usage": "TB/mes",
+      "stock": null,
+      "value": 260.0,
+      "note": null,
+      "source": "A27:H27"
+    },
+    {
+      "name": "Materiales de fabricación",
+      "business": 2,
+      "price": 416.0,
+      "pack": 1.0,
+      "purchase": "Kilogramos",
+      "quantity": 3000.0,
+      "usage": "Gramos",
+      "stock": "Si",
+      "value": 1248.0,
+      "note": null,
+      "source": "A40:H40"
+    },
+    {
+      "name": "Materiales de fabricación",
+      "business": 3,
+      "price": 416.0,
+      "pack": 1.0,
+      "purchase": "Kilogramos",
+      "quantity": 3000.0,
+      "usage": "Gramos",
+      "stock": "Si",
+      "value": 1248.0,
+      "note": null,
+      "source": "A56:H56"
+    }
+  ],
+  "indirect": [
+    {
+      "name": "Licencias Houdini FX",
+      "mxn": 8339.0,
+      "unit": "month",
+      "period": [
+        1,
+        24
+      ],
+      "shares": [
+        30.0,
+        30.0,
+        20.0,
+        20.0
+      ]
+    },
+    {
+      "name": "Licencias Nuke / NukeX",
+      "mxn": 7942.0,
+      "unit": "month",
+      "period": [
+        1,
+        24
+      ],
+      "shares": [
+        60.0,
+        20.0,
+        10.0,
+        10.0
+      ]
+    },
+    {
+      "name": "Licencias Maxon One",
+      "mxn": 1925.0,
+      "unit": "month",
+      "period": [
+        1,
+        24
+      ],
+      "shares": [
+        40.0,
+        40.0,
+        10.0,
+        10.0
+      ]
+    },
+    {
+      "name": "Licencias Adobe Creative Cloud",
+      "mxn": 2099.0,
+      "unit": "month",
+      "period": [
+        1,
+        24
+      ],
+      "shares": [
+        30.0,
+        50.0,
+        10.0,
+        10.0
+      ]
+    },
+    {
+      "name": "Software de gestión de proyectos y pipeline",
+      "mxn": 6500.0,
+      "unit": "month",
+      "period": [
+        1,
+        24
+      ],
+      "shares": [
+        50.0,
+        50.0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Arrendamiento del espacio de trabajo",
+      "mxn": 56000.0,
+      "unit": "month",
+      "period": [
+        1,
+        24
+      ],
+      "shares": [
+        35.0,
+        30.0,
+        20.0,
+        15.0
+      ]
+    },
+    {
+      "name": "Internet de alta velocidad",
+      "mxn": 1500.0,
+      "unit": "month",
+      "period": [
+        1,
+        24
+      ],
+      "shares": [
+        35.0,
+        30.0,
+        20.0,
+        15.0
+      ]
+    },
+    {
+      "name": "Mantenimiento y soporte técnico",
+      "mxn": 5000.0,
+      "unit": "month",
+      "period": [
+        1,
+        24
+      ],
+      "shares": [
+        30.0,
+        30.0,
+        20.0,
+        20.0
+      ]
+    },
+    {
+      "name": "Electricidad y climatización",
+      "mxn": 16000.0,
+      "unit": "month",
+      "period": [
+        1,
+        24
+      ],
+      "shares": [
+        30.0,
+        30.0,
+        20.0,
+        20.0
+      ]
+    },
+    {
+      "name": "Mantenimiento y refacciones de maquinaria",
+      "mxn": 5000.0,
+      "unit": "month",
+      "period": [
+        1,
+        24
+      ],
+      "shares": [
+        0,
+        0,
+        60.0,
+        40.0
+      ]
+    }
+  ],
+  "labor": [
+    {
+      "name": "Supervisor de VFX",
+      "mxn": 60000.0,
+      "unit": "month",
+      "shares": [
+        50.0,
+        50.0,
+        0,
+        0
+      ],
+      "period": [
+        1,
+        23
+      ],
+      "schedule": [
+        5,
+        8
+      ]
+    },
+    {
+      "name": "Artistas de composición digital",
+      "mxn": 35000.0,
+      "unit": "project",
+      "shares": [
+        50.0,
+        50.0,
+        0,
+        0
+      ],
+      "schedule": [
+        5,
+        8
+      ]
+    },
+    {
+      "name": "Artistas 3D, animadores CGI y simulación",
+      "mxn": 35000.0,
+      "unit": "project",
+      "shares": [
+        50.0,
+        50.0,
+        0,
+        0
+      ],
+      "schedule": [
+        5,
+        8
+      ]
+    },
+    {
+      "name": "Productor",
+      "mxn": 30000.0,
+      "unit": "project",
+      "shares": [
+        70.0,
+        30.0,
+        0,
+        0
+      ],
+      "schedule": [
+        5,
+        8
+      ]
+    },
+    {
+      "name": "Artistas freelance especializados",
+      "mxn": 200.0,
+      "unit": "hour",
+      "shares": [
+        50.0,
+        50.0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Director creativo",
+      "mxn": 60000.0,
+      "unit": "project",
+      "shares": [
+        50.0,
+        50.0,
+        0,
+        0
+      ],
+      "schedule": [
+        5,
+        8
+      ]
+    },
+    {
+      "name": "Coordinador del espacio",
+      "mxn": 20000.0,
+      "unit": "month",
+      "shares": [
+        0,
+        0,
+        50.0,
+        50.0
+      ],
+      "period": [
+        1,
+        23
+      ],
+      "schedule": [
+        6,
+        8
+      ]
+    },
+    {
+      "name": "Técnico del taller",
+      "mxn": 20000.0,
+      "unit": "month",
+      "shares": [
+        0,
+        0,
+        50.0,
+        50.0
+      ],
+      "period": [
+        1,
+        23
+      ],
+      "schedule": [
+        6,
+        8
+      ]
+    },
+    {
+      "name": "Mentores y asesores de proyectos",
+      "mxn": 600.0,
+      "unit": "hour",
+      "shares": [
+        0,
+        0,
+        50.0,
+        50.0
+      ]
+    },
+    {
+      "name": "Equipo de asesorías de proyectos",
+      "mxn": 25000.0,
+      "unit": "project",
+      "shares": [
+        0,
+        0,
+        50.0,
+        50.0
+      ],
+      "schedule": [
+        5,
+        8
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "name": "Impresora 3D FDM",
+      "kind": "Maquinaria",
+      "quantity": 3,
+      "value": 120000.0,
+      "unitPrice": 40000.0,
+      "month": "0 Preoperativo",
+      "depreciation": "Si, 4 años",
+      "lines": [
+        2,
+        3
+      ],
+      "description": "fabricar objetos tridimensionales reales a partir de un diseño digital"
+    },
+    {
+      "name": "Estaciones de trabajo de alto rendimiento",
+      "kind": "Equipo",
+      "quantity": 15,
+      "value": 1200000.0,
+      "month": "0 Preoperativo",
+      "depreciation": "Si, 4 años"
+    },
+    {
+      "name": "Monitores profesionales y periféricos",
+      "kind": "Utensilio",
+      "quantity": 15,
+      "value": 400000.0,
+      "month": "0 Preoperativo",
+      "depreciation": "Si, 4 años"
+    },
+    {
+      "name": "Servidor NAS y almacenamiento centralizado",
+      "kind": "Equipo",
+      "quantity": 1,
+      "value": 215000.0,
+      "month": "0 Preoperativo",
+      "depreciation": "Si, 4 años"
+    },
+    {
+      "name": "Equipos de red y seguridad informática",
+      "kind": "Utensilio",
+      "quantity": 3,
+      "value": 190000.0,
+      "month": "0 Preoperativo",
+      "depreciation": "No"
+    },
+    {
+      "name": "Escritorios, sillas y mesas de taller",
+      "kind": "Mobiliario",
+      "quantity": 15,
+      "value": 150000.0,
+      "month": "0 Preoperativo",
+      "depreciation": "No"
+    },
+    {
+      "name": "Herramientas de postprocesado",
+      "kind": "Utensilio",
+      "quantity": 15,
+      "value": 350000.0,
+      "month": "0 Preoperativo",
+      "depreciation": "Si, 1 año"
+    },
+    {
+      "name": "No-break y reguladores por estación",
+      "kind": "Equipo",
+      "quantity": 15,
+      "value": 90000.0,
+      "month": "0 Preoperativo",
+      "depreciation": "No"
+    }
+  ],
+  "admin": [
+    {
+      "name": "Amenities - cafe",
+      "mxn": 4200.0,
+      "period": [
+        1,
+        23
+      ]
+    },
+    {
+      "name": "Seguridad",
+      "mxn": 25000.0,
+      "period": [
+        1,
+        23
+      ]
+    },
+    {
+      "name": "servicios contables",
+      "mxn": 20000.0,
+      "period": [
+        1,
+        23
+      ]
+    },
+    {
+      "name": "limpieza",
+      "mxn": 9500.0,
+      "period": [
+        1,
+        23
+      ]
+    },
+    {
+      "name": "articulos de aseo",
+      "mxn": 2500.0,
+      "period": [
+        1,
+        23
+      ]
+    }
+  ],
+  "payroll": [
+    {
+      "name": "Personal de limpieza",
+      "kind": "Administrativa",
+      "mxn": 12000,
+      "period": [
+        1,
+        23
+      ]
+    },
+    {
+      "name": "Contador",
+      "kind": "Administrativa",
+      "mxn": 14000,
+      "period": [
+        1,
+        23
+      ]
+    },
+    {
+      "name": "Sistemas y TI",
+      "kind": "Administrativa",
+      "mxn": 30000,
+      "period": [
+        1,
+        23
+      ]
+    },
+    {
+      "name": "Asistente administrativo",
+      "kind": "Administrativa",
+      "mxn": 20000,
+      "period": [
+        1,
+        23
+      ]
+    },
+    {
+      "name": "Productor Ejecutivo",
+      "kind": "Administrativa",
+      "mxn": 50000,
+      "period": [
+        1,
+        23
+      ]
+    },
+    {
+      "name": "Reclutador",
+      "kind": "Comercial",
+      "mxn": 13000,
+      "period": [
+        1,
+        6
+      ]
+    },
+    {
+      "name": "Community Manager",
+      "kind": "Comercial",
+      "mxn": 12000,
+      "period": [
+        3,
+        23
+      ]
+    }
+  ],
+  "adminShares": [
+    [
+      10.0,
+      10.0,
+      40.0,
+      40.0
+    ],
+    [
+      30.0,
+      30.0,
+      20.0,
+      20.0
+    ]
+  ]
+}

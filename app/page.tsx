@@ -1,0 +1,6 @@
+import Image from 'next/image';
+import Link from 'next/link';
+import Sections from '@/components/Sections';
+import project from '@/data/project.json';
+import {formatMXN,investmentTotal} from '@/data/finance';
+export default function Home(){return <><section className="hero"><figure className="hero-art"><Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/wemo-escena-01.png?v=651d6c02d5`} width={1920} height={1080} alt="Personaje azul con sombrero morado entre la hierba verde" unoptimized preload/><div className="art-overlay"><h1 className="wordmark art-wordmark">[{project.name}]<span aria-hidden="true">®</span></h1></div></figure><div className="hero-bottom" data-reveal><p>{project.signature}</p><a className="round-link" href="#modelo" aria-label="Explorar el modelo">↓</a></div><div className="hero-stats" data-reveal>{['Equipamiento inicial','Horizonte de planeación','Líneas de negocio'].map((x,i)=><div key={x}><span className="mono">0{i+1} / {x}</span><strong>{i===1?'24 meses':i===2?'04':formatMXN(investmentTotal)}</strong></div>)}</div></section><div className="intro" data-reveal><span className="eyebrow">EL ESTUDIO COMO SISTEMA</span><p>[Título de introducción]<br/><span>[Descripción]</span></p><Link className="pill" data-route href="/capitulo/modelo/">Ver el modelo ↗</Link></div><Sections/></>}

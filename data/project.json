@@ -1,0 +1,19 @@
+{
+  "name": "WeMo",
+  "signature": "we and motion",
+  "description": null,
+  "investment": [],
+  "costs": {
+    "direct": [],
+    "fixed": [],
+    "variable": [],
+    "administrative": []
+  },
+  "income": [],
+  "projection": [],
+  "indicators": {
+    "investment": null,
+    "monthlyIncome": null,
+    "breakEven": null
+  }
+}
